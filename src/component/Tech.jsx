@@ -38,7 +38,7 @@ const Tech = () => {
         transition={{duration: 1.5}}
         className="flex flex-wrap items-center justify-center gap-4">
         <motion.div 
-        variants={iconVariants(2)}
+        variants={iconVariants(4)}
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
