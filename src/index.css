@@ -5,7 +5,187 @@
 @tailwind utilities;
 
 :root{
-  font-family: "Inter" , sans-serif;
+  font-family: "SF Pro AR Text Regular";
 }
 
+.navbar {
+  font-family: "SF Pro AR Text";
+  font-size: 1.3rem;
+  position: fixed;
+  background-color: #8E6D5C;
+  width: 100%;
+  z-index: 999999;
+}
 
+.mx20 {
+  max-width: 20rem;
+}
+
+@font-face {
+	font-family: "SF Pro AR Text";
+	font-style: normal;
+	font-weight: 600;
+	src: url("assets/sfproAR_semibold.ttf");
+}
+
+@font-face {
+	font-family: "SF Pro AR Text Regular";
+	font-style: normal;
+	font-weight: 0;
+	src: url("assets/sfproAR_regular.ttf");
+}
+
+.borderwhite {
+  border-color: white;
+}
+
+.pb-15 {
+  padding-bottom: 1.5rem;
+}
+
+.gapfloat {
+  gap: 10rem;
+}
+
+.dropdownlist:hover {
+  text-decoration: none;
+}
+
+a {
+  text-decoration-color: blanchedalmond;
+  text-underline-offset: 10px;
+}
+
+a:hover {
+	text-decoration: underline;
+	transition: text-decoration 1s; 
+}
+
+/* login css */
+
+.page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75em;
+}
+
+.cover {
+    position: fixed;
+    top: 30%;
+    left: 35%;
+    max-height: 25em;
+    z-index: 9999999;
+    background-color: floralwhite;
+    width: 70%;
+    height: 50%;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.alt-login {
+    width: 80%;
+    height: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.alt-login div {
+    width: 47.5%;
+    height: 90%;
+    border-radius: 0.25em;
+    background-color: black;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+input {
+    border: none;
+    background-color: rgb(229, 226, 226);
+    width: 80%;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 2em;
+    font-size: 0.75em;
+}
+
+input:focus {
+    outline-color: rgb(32, 177, 255);
+}
+
+.login-btn {
+    width: 40%;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+.login-btn:hover { transform: scale(1.25);}
+
+.text {
+    position: relative;
+    bottom: 0.5%;
+}
+
+.hide {
+    position: absolute;
+    transform: scale(0);
+}
+
+.login-popup {
+    position: absolute;
+    height: 30em;
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25em;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    transform: scale(1);
+    transition: 1.5s;
+}
+
+.blue {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../icons/google.png');
+}
+
+@media only screen and (min-device-width: 37em) {
+    .page {
+        font-size: 1em;
+    }
+
+    .cover {
+        width: 60%;
+        height: 70%;
+    }
+}
+
+@media only screen and (min-device-width: 64em) {
+    .page {
+        font-size: 1.25em;
+    }
+
+    .cover {
+        width: 25%;
+        height: 65%;
+    }
+}

@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a talent for crafting and designing robust and scalable websites and applications. I have honed my skills in front-end technologies like React and Next.js, and back-end technologies such as Node.js, MySQL, and PostgreSQL. Additionally, I am proficient in Figma, Flutter, Python, Java, and C++. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = 'مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو مياو ';
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
@@ -57,7 +57,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "10 B Al Kaf St., Riyadh, 11961 ",
-  phoneNo: "+966 55 2522 413 ",
-  email: "iiik7n@gmail.com",
+  address: "Rushd. Founded in LA",
+  phoneNo: "+1 (765) 810-1815",
+  email: "rushd@rushd.sa",
 };

@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import mainpic from "../assets/main.png";
+import mainpic from "../assets/diriyah.jpg";
 import { delay, motion } from "framer-motion"
 
 const container = (delay) =>({
@@ -19,30 +19,25 @@ const Hero = () => {
                     variants={container(0)}
                     initial="hidden"
                     animate="visible"
-                     className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 
-                    lg:text-8xl">Khalid Fahad</motion.h1>
-                    <motion.span 
-                    variants={container(0.5)}
-                    initial="hidden"
-                    animate="visible"
-                    className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">Full Stack Devolper
-                    </motion.span>
+                     className="pb-15 text-6xl font-thin tracking-tight lg:mt-16 
+                    lg:text-8xl" style={{color: "black", paddingLeft: "7rem"}}>ما هو رشد؟</motion.h1>
                     <motion.p
                     variants={container(1)}
                     initial="hidden"
                     animate="visible"
+                    style={{marginLeft: "2rem", color: "black", textAlign: "right", paddingRight: "5rem", marginBottom: "5rem"}}
                     className="my-2 max-w-xl py-6 font-light">
                     {HERO_CONTENT}
                     </motion.p>
                 </div>
             </div>
-            <div className="w-full lg:w-1/2 lg:p-8">
+            <div style={{paddingTop: "7rem"}} className="w-full lg:w-1/2 lg:p-8">
                 <div className="flex justify-center">
                     <motion.img 
                     initial={{x:100, opacity:0}}
                     animate={{x:0, opacity:1}}
                     transition={{duration:1 , delay:1.2}}
-                    src={mainpic} alt ="Khalid Fahad" style={{ borderRadius: '2rem' }}/>
+                    src={mainpic} alt ="Khalid Fahad" style={{ borderRadius: '2rem', width: '100%', paddingLeft: '1rem' }}/>
                 </div>
             </div>
         </div>
