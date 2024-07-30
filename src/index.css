@@ -46,18 +46,37 @@
 .gapfloat {
   gap: 10rem;
 }
+.heroimg {
+  padding-top: 7rem;
+}
+
+.dropdown {
+  position: absolute;
+  gap: 1.5rem;
+  margin-top: 3.7rem;
+  flex-direction: column;
+  padding: 1rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #8E6D5C;
+}
+
+.dropdownlist {
+  margin: 1.3rem;
+  display: flex;
+  gap: 0.5rem;
+}
 
 .dropdownlist:hover {
   text-decoration: none;
 }
-
 .border-b:hover {
   text-decoration: none;
 }
 
 a {
   text-decoration-color: blanchedalmond;
-  text-underline-offset: 10px;
+  text-underline-offset: 8px;
 }
 
 a:hover {
@@ -194,4 +213,19 @@ input:focus {
     }
 }
 
+.hamburger-menu {
+  display: none;
+}
+
+@media (max-width: 904px) {
+	.hamburger-menu {
+	  display: block;
+	}
+	.links {
+	  display: none;
+	}
+	.heroimg {
+	  padding-top: unset;
+	}
+}
 
