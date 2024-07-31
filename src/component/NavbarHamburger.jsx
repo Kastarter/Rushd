@@ -38,21 +38,20 @@ const NavbarHamburger = () => {
 	        </div>
 	  </li>
 	  <li>
-	    <a href="#" className="hamburger-links" onClick={showLogin}>تسجيل الدخول</a>
+          <a href="#" className="hamburger-links" style={{margin: "1.3rem"}}>البرامج</a>
 	  </li>
-
 	  <li>
-	  <a href="#" className="hamburger-links" onClick={showLogin}>اِنضم اِلينا</a>
+          <a href="#" className="hamburger-links" style={{margin: "1.3rem"}}>الورشة التدريبية</a>
 	  </li>
-
 	  <li>
           <a href="#" className="hamburger-links" style={{margin: "1.3rem"}}>الاسئلة الشائعة</a>
 	  </li>
-
 	  <li>
-          <a href="#" className="hamburger-links" style={{margin: "1.3rem"}}>البرامج</a>
+	  <a href="#" className="hamburger-links" onClick={showLogin}>اِنضم اِلينا</a>
 	  </li>
-
+	  <li>
+	    <a href="#" className="hamburger-links" onClick={showLogin}>تسجيل الدخول</a>
+	  </li>
 	  <li>
 	  <a href="#" className="hamburger-links"><FaSun/></a>
 	  </li>
