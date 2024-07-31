@@ -46,17 +46,7 @@ const NavbarHamburger = () => {
 	  </li>
 
 	  <li>
-          <a href="#" className="hamburger-links" style={{margin: "1.3rem"}}>الاسالة الشائعة</a>
-	  </li>
-
-	  <li>
-          <a href="#" className="hamburger-links hamburger-dropdownlist" onClick={toggleDropDown}>
-	    <PiCaretDown style={{marginTop: "0.4rem"}}/> الدعم
-	    <Dropdown>
-	      <li style={{borderBottom: "outset", borderBottomColor: "floralwhite"}}><a href="#">قروبات</a></li>
-	      <li style={{borderBottom: "outset", borderBottomColor: "floralwhite"}}><a href="#">ملفات</a></li>
-	    </Dropdown>
-	  </a>
+          <a href="#" className="hamburger-links" style={{margin: "1.3rem"}}>الاسئلة الشائعة</a>
 	  </li>
 
 	  <li>

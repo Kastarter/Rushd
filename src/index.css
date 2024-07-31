@@ -270,6 +270,7 @@ input:focus {
 .hamburger-nav {
   font-family: "SF Pro AR Text";
   display: flex;
+  z-index: 9;
   flex-direction: column;
   background: #8E6D5C;
   height: 100vh;

@@ -66,7 +66,7 @@ const Navbar = () => {
 	</div>
 
         <div style={{display: "flex"}}>
-          <a href="#" className="links" style={{margin: "1.3rem"}}>الاسالة الشائعة</a>
+          <a href="#" className="links" style={{margin: "1.3rem"}}>الاسئلة الشائعة</a>
           <a href="#" className="links dropdownlist" onClick={toggleDropDown}>
 	    <PiCaretDown style={{marginTop: "0.4rem"}}/> الدعم
 	    <ul id="dropdown" style={{display: "none"}} className="dropdown">

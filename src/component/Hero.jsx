@@ -20,12 +20,12 @@ const Hero = () => {
                     initial="hidden"
                     animate="visible"
                      className="pb-15 text-6xl font-thin tracking-tight lg:mt-16 
-                    lg:text-8xl" style={{color: "black", paddingLeft: "7rem"}}>ما هو رشد؟</motion.h1>
+                    lg:text-8xl" style={{color: "black", paddingLeft: "7rem", fontSize: "3rem"}}>ما هو رشد؟</motion.h1>
                     <motion.p
                     variants={container(1)}
                     initial="hidden"
                     animate="visible"
-                    style={{marginLeft: "2rem", color: "black", textAlign: "justify", paddingRight: "5rem", marginBottom: "5rem"}}
+                    style={{marginLeft: "2rem", color: "black", textAlign: "right", paddingRight: "3rem", marginBottom: "5rem"}}
                     className="my-2 max-w-xl py-6 font-light">
                     {HERO_CONTENT}
                     </motion.p>
