@@ -67,13 +67,7 @@ const Navbar = () => {
 
         <div style={{display: "flex"}}>
           <a href="#" className="links" style={{margin: "1.3rem"}}>الاسئلة الشائعة</a>
-          <a href="#" className="links dropdownlist" onClick={toggleDropDown}>
-	    <PiCaretDown style={{marginTop: "0.4rem"}}/> الدعم
-	    <ul id="dropdown" style={{display: "none"}} className="dropdown">
-	      <li style={{borderBottom: "outset", borderBottomColor: "floralwhite"}}><a href="#">قروبات</a></li>
-	      <li style={{borderBottom: "outset", borderBottomColor: "floralwhite"}}><a href="#">ملفات</a></li>
-	    </ul>
-	  </a>
+          <a href="#" className="links" style={{margin: "1.3rem"}}>الورشة التدريبية</a>
           <a href="#" className="links" style={{margin: "1.3rem"}}>البرامج</a>
           <div id="navimg" className="item-center navimg">
               <img style={{width: "4rem"}} className="mx-2 w-10" src={logo} alt="logo" />
