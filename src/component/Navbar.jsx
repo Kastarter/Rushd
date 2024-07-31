@@ -69,10 +69,10 @@ const Navbar = () => {
           <a href="#" className="links" style={{margin: "1.3rem"}}>الاسالة الشائعة</a>
           <a href="#" className="links dropdownlist" onClick={toggleDropDown}>
 	    <PiCaretDown style={{marginTop: "0.4rem"}}/> الدعم
-	    <Dropdown>
+	    <ul id="dropdown" style={{display: "none"}} className="dropdown">
 	      <li style={{borderBottom: "outset", borderBottomColor: "floralwhite"}}><a href="#">قروبات</a></li>
 	      <li style={{borderBottom: "outset", borderBottomColor: "floralwhite"}}><a href="#">ملفات</a></li>
-	    </Dropdown>
+	    </ul>
 	  </a>
           <a href="#" className="links" style={{margin: "1.3rem"}}>البرامج</a>
           <div id="navimg" className="item-center navimg">

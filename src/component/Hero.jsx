@@ -25,7 +25,7 @@ const Hero = () => {
                     variants={container(1)}
                     initial="hidden"
                     animate="visible"
-                    style={{marginLeft: "2rem", color: "black", textAlign: "right", paddingRight: "5rem", marginBottom: "5rem"}}
+                    style={{marginLeft: "2rem", color: "black", textAlign: "justify", paddingRight: "5rem", marginBottom: "5rem"}}
                     className="my-2 max-w-xl py-6 font-light">
                     {HERO_CONTENT}
                     </motion.p>

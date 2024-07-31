@@ -4,7 +4,7 @@ export const Dropdown = ( props ) => {
 
     return (
 
-        <ul id="dropdown" style={{display:"none"}} className="dropdown">
+        <ul id="dropdown1" style={{display:"none"}} className="dropdown">
           { props.children }
         </ul>
     )
