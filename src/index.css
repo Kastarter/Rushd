@@ -14,7 +14,14 @@
   position: fixed;
   background-color: #8E6D5C;
   width: 100%;
-  z-index: 999999;
+  z-index: 10;
+}
+
+.navimg {
+  margin: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 3rem;
+  transition: transform 0.3s ease-in-out;
 }
 
 .mx20 {
@@ -100,7 +107,7 @@ a:hover {
     top: 30%;
     left: 35%;
     max-height: 25em;
-    z-index: 9999999;
+    z-index: 11;
     background-color: floralwhite;
     width: 70%;
     height: 50%;
@@ -213,13 +220,77 @@ input:focus {
     }
 }
 
-.hamburger-menu {
+.hamburger-button {
   display: none;
+  z-index: 12;
+  position: absolute;
+  top: 5%;
+  width: 2rem;
+  height: 1rem;
+  flex-direction: column;
+  justify-content: space-around;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
 }
 
+.hamburger-button:focus {
+  outline: none;
+}
+
+.hamburger-button div {
+  width: 2rem;
+  height: 0.15rem;
+  background: floralwhite;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  position: relative;
+  transform-origin: 1px;
+}
+
+.hamburger-button div:first-child {
+  transform: rotate(0);
+}
+
+.hamburger-button div:nth-child(2) {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.hamburger-button div:nth-child(3) {
+  transform: rotate(0);
+}
+
+.hamburger-links {
+  align-self: center;
+  padding: 1rem;
+}
+
+.hamburger-nav {
+  font-family: "SF Pro AR Text";
+  display: flex;
+  flex-direction: column;
+  background: #8E6D5C;
+  height: 100vh;
+  width: 100%;
+  text-align: right;
+  position: absolute;
+  transform: translateX(-100%);
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease-in-out;
+}
+.hamburger-nav ul {
+  display: inherit;
+  flex-direction: inherit;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+}
 @media (max-width: 904px) {
-	.hamburger-menu {
-	  display: block;
+	.hamburger-button {
+	  display: flex;
 	}
 	.links {
 	  display: none;

@@ -12,7 +12,7 @@ export const AnimatedCounter = ({
   animationOptions,
 }) => {
   const ref = useRef(null);
-  const inView = useInView(ref, { once: true });
+  const inView = useInView(ref, { once: false });
 
   useIsomorphicLayoutEffect(() => {
     const element = ref.current;
